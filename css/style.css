@@ -1,4 +1,30 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+}
+
 a {
+  text-decoration: none;
+}
+
+li {
   list-style-type: none;
 }
+
+.navbar {
+  position: fixed;
+  width: 200px;
+  background-color: #fcf9f9;
+}
+
+h3 {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid grey;
+}
+
+/*background-color: rgb(238, 235, 235);*/
 /*# sourceMappingURL=style.css.map */
