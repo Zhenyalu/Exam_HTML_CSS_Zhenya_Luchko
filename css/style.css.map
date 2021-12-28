@@ -1,1 +1,10 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAA;EACC,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_nav.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
