@@ -15,7 +15,7 @@ li {
 
 .navbar {
   position: fixed;
-  width: 200px;
+  width: 220px;
   background-color: #fcf9f9;
 }
 
@@ -23,7 +23,24 @@ h3 {
   padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 25px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #d1cece;
+}
+
+li {
+  font-size: 14px;
+  padding: 13px 20px 13px 80px;
+}
+
+ul {
+  padding: 0;
+}
+
+.dash {
+  margin-left: 20px;
+  width: 77px;
+  color: #fff;
+  background-color: #ee055e;
+  border-bottom: 4px solid #d1cece;
 }
 
 /*background-color: rgb(238, 235, 235);*/
