@@ -14,6 +14,7 @@ li {
 }
 
 .navbar {
+  border-right: 4px solid #c5c3c3;
   position: fixed;
   width: 235px;
   background-color: #fcf9f9;
@@ -51,8 +52,18 @@ ul {
 }
 
 svg {
-  padding-right: 10px;
+  padding-right: 12px;
 }
 
-/*background-color: rgb(238, 235, 235);*/
+.user {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px 53px 13px 43px;
+}
+
+.main {
+  background-color: #eeebeb;
+}
 /*# sourceMappingURL=style.css.map */
