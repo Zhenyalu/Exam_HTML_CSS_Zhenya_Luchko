@@ -12,27 +12,35 @@ li{
 }
 .navbar{
   position: fixed;
-  width: 220px;
+  width: 235px;
   background-color: rgb(252, 249, 249);
 }
-h3{
+h2{
+  font-size: 23px;
   padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 25px;
   border-bottom: 2px solid rgb(209, 206, 206);
 }
 li{
-  font-size: 14px;
-  padding: 13px 20px 13px 80px;
+  font-size: 15px;
+  padding: 13px 93px 13px 23px;
 }
 ul{
   padding: 0;
 }
 .dash{
   margin-left: 20px;
+  margin-top: 27px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
   width: 77px;
   color: #fff;
   background-color: rgb(238, 5, 94);
   border-bottom: 4px solid rgb(209, 206, 206);
+}
+svg{
+  padding-right: 10px;
 }
 /*background-color: rgb(238, 235, 235);*/
