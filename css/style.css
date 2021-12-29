@@ -14,6 +14,7 @@ li {
 }
 
 .navbar {
+  overflow: hidden;
   border-right: 4px solid #c5c3c3;
   position: fixed;
   width: 235px;
@@ -65,5 +66,12 @@ svg {
 
 .main {
   background-color: #eeebeb;
+}
+
+.section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr, 1fr;
+      grid-template-rows: 1fr, 1fr;
 }
 /*# sourceMappingURL=style.css.map */
