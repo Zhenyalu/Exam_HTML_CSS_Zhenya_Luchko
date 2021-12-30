@@ -51,15 +51,23 @@ svg{
   padding: 13px 53px 13px 43px;
 }
 @media(min-width:500px){
-  
+  .nav{
+    display: block;
+  }
 }
 @media(min-width:650px){
-  
+  .nav{
+    display: block;
+  }
 }
 @media(min-width:800px){
-  
+  .nav{
+    display: none;
+  }
 }
 @media(min-width:1200px){
-  
+  .nav{
+    display: none;
+  }
 }
 
