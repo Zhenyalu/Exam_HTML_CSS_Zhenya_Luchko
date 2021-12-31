@@ -14,7 +14,7 @@ li {
 }
 
 .navbar {
-  overflow: hidden;
+  overflow-x: hidden;
   border-right: 4px solid #c5c3c3;
   width: 235px;
   background-color: #fcf9f9;
@@ -63,30 +63,6 @@ svg {
   padding: 13px 53px 13px 43px;
 }
 
-@media (min-width: 500px) {
-  .nav {
-    display: block;
-  }
-}
-
-@media (min-width: 650px) {
-  .nav {
-    display: block;
-  }
-}
-
-@media (min-width: 800px) {
-  .nav {
-    display: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  .nav {
-    display: none;
-  }
-}
-
 .main {
   background-color: #eeebeb;
   overflow: hidden;
@@ -101,5 +77,19 @@ section {
   display: grid;
   -ms-grid-columns: 0fr auto;
       grid-template-columns: 0fr auto;
+}
+
+@media (min-width: 500px) {
+  section {
+    -ms-grid-columns: 0fr;
+        grid-template-columns: 0fr;
+  }
+}
+
+@media (min-width: 650px) {
+  section {
+    -ms-grid-columns: 0fr;
+        grid-template-columns: 0fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */
