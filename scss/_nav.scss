@@ -11,7 +11,12 @@ li{
   list-style-type: none;
 }
 .navbar{ 
+  height: 100%;
   overflow-x: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   border-right: 4px solid rgb(197, 195, 195);
   width: 235px;
   background-color: rgb(252, 249, 249);

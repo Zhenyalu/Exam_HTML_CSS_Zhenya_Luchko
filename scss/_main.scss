@@ -1,7 +1,16 @@
 .main{
   background-color: rgb(238, 235, 235);
+  margin-left: 239px;
   overflow: hidden;
+  padding: 0 40px;
 }
 .main_gb{
   border: 0;
+}
+.dash_main{
+  font-size: 23px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid transparent;
 }

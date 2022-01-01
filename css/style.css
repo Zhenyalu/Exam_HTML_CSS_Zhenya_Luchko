@@ -14,7 +14,12 @@ li {
 }
 
 .navbar {
+  height: 100%;
   overflow-x: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   border-right: 4px solid #c5c3c3;
   width: 235px;
   background-color: #fcf9f9;
@@ -65,31 +70,20 @@ svg {
 
 .main {
   background-color: #eeebeb;
+  margin-left: 239px;
   overflow: hidden;
+  padding: 0 40px;
 }
 
 .main_gb {
   border: 0;
 }
 
-section {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 0fr auto;
-      grid-template-columns: 0fr auto;
-}
-
-@media (min-width: 500px) {
-  section {
-    -ms-grid-columns: 0fr;
-        grid-template-columns: 0fr;
-  }
-}
-
-@media (min-width: 650px) {
-  section {
-    -ms-grid-columns: 0fr;
-        grid-template-columns: 0fr;
-  }
+.dash_main {
+  font-size: 23px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid transparent;
 }
 /*# sourceMappingURL=style.css.map */
