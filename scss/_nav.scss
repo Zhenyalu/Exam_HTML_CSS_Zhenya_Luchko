@@ -1,3 +1,4 @@
+$cherry: rgb(238, 5, 94);
 body{
   background-color: #000;
   margin: 0;
@@ -43,7 +44,7 @@ ul{
   text-align: center;
   width: 77px;
   color: #fff;
-  background-color: rgb(238, 5, 94);
+  background-color: $cherry;
   border-bottom: 4px solid rgb(209, 206, 206);
 }
 svg{
