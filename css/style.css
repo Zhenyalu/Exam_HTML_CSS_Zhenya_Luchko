@@ -248,6 +248,10 @@ p {
   margin-right: 55px;
 }
 
+.tabl {
+  padding: 30px;
+}
+
 .container {
   display: -ms-grid;
   display: grid;
