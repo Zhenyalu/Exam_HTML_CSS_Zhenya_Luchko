@@ -7,6 +7,7 @@ $cherry: rgb(238, 5, 94);
   margin-left: 239px;
   overflow: hidden;
   padding: 0 40px;
+  position: relative;
 }
 .main_used{
   text-align: end;
@@ -31,6 +32,9 @@ $cherry: rgb(238, 5, 94);
 }
 .main p img{
   padding-right: 8px;
+  padding-top: 3px;
+  width: 14px;
+  height: 14px;
 }
 .main_block{
   margin-top: 30px;
@@ -45,37 +49,148 @@ $cherry: rgb(238, 5, 94);
   box-shadow: 10px 10px 8px -3px rgb(168, 167, 167);
 }
 .main_block3{
-  margin-top: 65px;
+  margin-top: 77px;
   background-color: rgb(252, 249, 249);
-  padding: 18px 25px 0px 25px;
+  padding: 18px 25px 10px 25px;
   box-shadow: 10px 10px 8px -3px rgb(168, 167, 167);
 }
 p{
   margin: 0;
 }
-.square{
+.square_green1{
+  background-color: $green;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 73px;
+  height: 73px;
+  top: 116px;
+  border: 3px solid rgb(209, 206, 206);
+}
+.square_orenge2{
+  background-color: $orenge;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 73px;
+  height: 73px;
   top: 116px;
   border: 3px solid rgb(209, 206, 206);
 }
 .main_kub{
   height: 45px;
 }
-.green{
+.green11{
   background-color: $green;
 }
-.orenge{
+.orenge22{
   background-color: $orenge;
 }
-.blue{
+@media(min-width:500px){
+  .square_blue3{
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_cherry4{
+    background-color: $cherry;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+}
+@media(min-width:650px){
+  .square_blue3{
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_cherry4{
+    background-color: $cherry;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+}
+@media(min-width:800px){
+  .square_blue3{
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_cherry4{
+    background-color: $cherry;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+}
+@media(min-width:1440px){
+  .square_blue3{
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_cherry4{
+    background-color: $cherry;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+}
+.orenge222{
+  background-color: $orenge;
+}
+.blue33{
   background-color: $blue;
 }
-.cherry{
+.cherry44{
   background-color: $cherry;
 }
 .grafick{
@@ -93,7 +208,9 @@ p{
   font-size: 20px;
 }
 .main_get{
-  font-size: 15px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 16px;
 }
 .grafick_blue{
   font-size: 22px;
@@ -111,25 +228,14 @@ p{
   color:rgb(4, 168, 119);
   font-size: 20px;
   padding-bottom: 5px;
-  display: flex;
-  flex-direction: row;
-}
-.nameid{
-  margin-right: 100px;
-}
-.namei{
-  margin-right: 70px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  padding: 10px 20px;
 }
 .main_get3{
-  display: flex;
-  flex-direction: row;
-}
-.id{
-  padding: 0 40px;
-}
-.id1{
-  margin-left: 37px;
-  margin-right: 55px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  padding: 10px 20px;
 }
 .tabl{
   font-size: 20px;
@@ -144,7 +250,7 @@ p{
   font-size: 20px;
 }
 .tabl_img:hover{
-  padding: 15px 30px;
+  padding: 15px 43px;
   color: #fff;
   font-size: 20px;
   background: rgb(238, 169, 40);
@@ -174,11 +280,25 @@ input{
 .futer{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 40px 0 40px 15px;
+  padding: 92px 0 45px 15px;
 }
 .fut{
+  color: #000;
   font-weight: bold;
+  display: flex;
+  gap: 60px;
+}
+.fut a{
+  color: #000;
 }
 .fut2{
   text-align: end;
+}
+.main_hr{
+  transform: translateY(50px);
+  width: 100%;
+  position: absolute;
+}
+.whiteline{
+  background-color: transparent;
 }
