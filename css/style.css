@@ -249,7 +249,74 @@ p {
 }
 
 .tabl {
+  font-size: 20px;
+  color: #fff;
   padding: 30px;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  border: 3px solid #d1cece;
+}
+
+.tabl_img {
+  padding: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.tabl_img:hover {
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 20px;
+  background: #eea928;
+}
+
+.tabl_img_bugs {
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 20px;
+  background: #eea928;
+}
+
+input {
+  accent-color: #d4d3d3;
+  width: 25px;
+  height: 25px;
+}
+
+.check {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.futer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 40px 0 40px 15px;
+}
+
+.fut {
+  font-weight: bold;
+}
+
+.fut2 {
+  text-align: end;
 }
 
 .container {
@@ -274,5 +341,9 @@ p {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.futer {
+  background-color: #eeebeb;
 }
 /*# sourceMappingURL=style.css.map */
