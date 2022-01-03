@@ -67,12 +67,64 @@ svg {
   padding: 13px 53px 13px 43px;
 }
 
-.main {
-  background-color: #eeebeb;
-  margin-left: 239px;
-  overflow: hidden;
-  padding: 0 40px;
-  position: relative;
+@media (min-width: 200px) {
+  .navbar {
+    display: none;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-right: 4px solid #c5c3c3;
+    width: 235px;
+    background-color: #fcf9f9;
+  }
+}
+
+@media (min-width: 650px) {
+  .navbar {
+    display: none;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-right: 4px solid #c5c3c3;
+    width: 235px;
+    background-color: #fcf9f9;
+  }
+}
+
+@media (min-width: 900px) {
+  .navbar {
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-right: 4px solid #c5c3c3;
+    width: 235px;
+    background-color: #fcf9f9;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar {
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-right: 4px solid #c5c3c3;
+    width: 235px;
+    background-color: #fcf9f9;
+  }
 }
 
 .main_used {
@@ -155,24 +207,6 @@ p {
   border: 3px solid #d1cece;
 }
 
-.square_orenge2 {
-  background-color: #e29505;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  width: 73px;
-  height: 73px;
-  top: 116px;
-  border: 3px solid #d1cece;
-}
-
 .main_kub {
   height: 45px;
 }
@@ -185,7 +219,7 @@ p {
   background-color: #e29505;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 300px) {
   .square_blue3 {
     background-color: #252594;
     display: -webkit-box;
@@ -200,7 +234,24 @@ p {
     position: absolute;
     width: 73px;
     height: 73px;
-    top: 310px;
+    top: 506px;
+    border: 3px solid #d1cece;
+  }
+  .square_orenge2 {
+    background-color: #e29505;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 314px;
     border: 3px solid #d1cece;
   }
   .square_cherry4 {
@@ -217,45 +268,14 @@ p {
     position: absolute;
     width: 73px;
     height: 73px;
-    top: 310px;
+    top: 704px;
     border: 3px solid #d1cece;
   }
-}
-
-@media (min-width: 650px) {
-  .square_blue3 {
-    background-color: #252594;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    top: 310px;
-    border: 3px solid #d1cece;
-  }
-  .square_cherry4 {
-    background-color: #ee055e;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    top: 310px;
-    border: 3px solid #d1cece;
+  .main {
+    background-color: #eeebeb;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
   }
 }
 
@@ -277,6 +297,23 @@ p {
     top: 310px;
     border: 3px solid #d1cece;
   }
+  .square_orenge2 {
+    background-color: #e29505;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid #d1cece;
+  }
   .square_cherry4 {
     background-color: #ee055e;
     display: -webkit-box;
@@ -293,6 +330,73 @@ p {
     height: 73px;
     top: 310px;
     border: 3px solid #d1cece;
+  }
+  .main {
+    background-color: #eeebeb;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+  }
+}
+
+@media (min-width: 900px) {
+  .square_blue3 {
+    background-color: #252594;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid #d1cece;
+  }
+  .square_orenge2 {
+    background-color: #e29505;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid #d1cece;
+  }
+  .square_cherry4 {
+    background-color: #ee055e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid #d1cece;
+  }
+  .main {
+    background-color: #eeebeb;
+    margin-left: 239px;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
   }
 }
 
@@ -314,6 +418,23 @@ p {
     top: 116px;
     border: 3px solid #d1cece;
   }
+  .square_orenge2 {
+    background-color: #e29505;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid #d1cece;
+  }
   .square_cherry4 {
     background-color: #ee055e;
     display: -webkit-box;
@@ -330,6 +451,13 @@ p {
     height: 73px;
     top: 116px;
     border: 3px solid #d1cece;
+  }
+  .main {
+    background-color: #eeebeb;
+    margin-left: 239px;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
   }
 }
 
@@ -518,12 +646,19 @@ input {
   gap: 20px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 200px) {
   .container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .container2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
   .container3 {
@@ -539,8 +674,15 @@ input {
   .container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .container2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
   .container3 {
@@ -560,6 +702,13 @@ input {
         grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+  .container2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
   .container3 {
     display: -ms-grid;
     display: grid;
@@ -575,6 +724,13 @@ input {
     display: grid;
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .container2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   .container3 {

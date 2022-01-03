@@ -2,13 +2,6 @@ $green: rgb(14, 145, 14);
 $orenge: rgb(226, 149, 5);
 $blue: rgb(37, 37, 148);
 $cherry: rgb(238, 5, 94);
-.main{
-  background-color: rgb(238, 235, 235);
-  margin-left: 239px;
-  overflow: hidden;
-  padding: 0 40px;
-  position: relative;
-}
 .main_used{
   text-align: end;
 }
@@ -68,17 +61,6 @@ p{
   top: 116px;
   border: 3px solid rgb(209, 206, 206);
 }
-.square_orenge2{
-  background-color: $orenge;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 73px;
-  height: 73px;
-  top: 116px;
-  border: 3px solid rgb(209, 206, 206);
-}
 .main_kub{
   height: 45px;
 }
@@ -88,7 +70,7 @@ p{
 .orenge22{
   background-color: $orenge;
 }
-@media(min-width:500px){
+@media(min-width:300px){
   .square_blue3{
     background-color: $blue;
     display: flex;
@@ -97,7 +79,18 @@ p{
     position: absolute;
     width: 73px;
     height: 73px;
-    top: 310px;
+    top: 506px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_orenge2{
+    background-color: $orenge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 314px;
     border: 3px solid rgb(209, 206, 206);
   }
   .square_cherry4{
@@ -108,33 +101,15 @@ p{
     position: absolute;
     width: 73px;
     height: 73px;
-    top: 310px;
+    top: 704px;
     border: 3px solid rgb(209, 206, 206);
   }
+  .main {
+    background-color: #eeebeb;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
 }
-@media(min-width:650px){
-  .square_blue3{
-    background-color: $blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    top: 310px;
-    border: 3px solid rgb(209, 206, 206);
-  }
-  .square_cherry4{
-    background-color: $cherry;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    top: 310px;
-    border: 3px solid rgb(209, 206, 206);
-  }
 }
 @media(min-width:800px){
   .square_blue3{
@@ -148,6 +123,17 @@ p{
     top: 310px;
     border: 3px solid rgb(209, 206, 206);
   }
+  .square_orenge2{
+    background-color: $orenge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid rgb(209, 206, 206);
+  }
   .square_cherry4{
     background-color: $cherry;
     display: flex;
@@ -159,6 +145,54 @@ p{
     top: 310px;
     border: 3px solid rgb(209, 206, 206);
   }
+  .main {
+    background-color: #eeebeb;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+}
+}
+@media(min-width:900px){
+  .square_blue3{
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_orenge2{
+    background-color: $orenge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .square_cherry4{
+    background-color: $cherry;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 310px;
+    border: 3px solid rgb(209, 206, 206);
+  }
+  .main {
+    background-color: #eeebeb;
+    margin-left: 239px;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+}
 }
 @media(min-width:1440px){
   .square_blue3{
@@ -172,6 +206,17 @@ p{
     top: 116px;
     border: 3px solid rgb(209, 206, 206);
   }
+  .square_orenge2{
+    background-color: $orenge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 116px;
+    border: 3px solid rgb(209, 206, 206);
+  }
   .square_cherry4{
     background-color: $cherry;
     display: flex;
@@ -183,6 +228,13 @@ p{
     top: 116px;
     border: 3px solid rgb(209, 206, 206);
   }
+  .main {
+    background-color: #eeebeb;
+    margin-left: 239px;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+}
 }
 .orenge222{
   background-color: $orenge;
