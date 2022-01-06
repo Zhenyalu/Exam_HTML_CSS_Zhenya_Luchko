@@ -52,7 +52,15 @@ svg{
 .user{
   color: #000;
   display: flex;
-  padding: 13px 53px 13px 43px;
+  padding: 13px 23px 13px 43px;
+  border-bottom: 4px solid #fcf9f9;
+}
+.user:hover{
+  padding: 13px 23px 13px 22px;
+  margin: 0 21px;
+  color:#fff;
+  background-color: #ee055e;
+  border-bottom: 4px solid #d1cece;
 }
 @media(min-width:200px){
   .navbar{ 
@@ -82,7 +90,7 @@ svg{
     background-color: rgb(252, 249, 249);
   }
 }
-@media(min-width:900px){
+@media(min-width:950px){
   .navbar{ 
     display: block;
     height: 100%;
@@ -110,4 +118,3 @@ svg{
   background-color: rgb(252, 249, 249);
 }
 }
-

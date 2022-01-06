@@ -54,30 +54,6 @@ p{
 }
 @media(min-width:300px){
 
-  .tabl_img{
-    padding: 5px;
-    color: #fff;
-    font-size: 15px;
-  }
-  .tabl_img:hover{
-    padding: 5px 5px;
-    color: #fff;
-    font-size: 15px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl_img_bugs{
-    padding: 5px 5px;
-    color: #fff;
-    font-size: 15px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl{
-    font-size: 15px;
-    color: #fff;
-    padding: 30px;
-    transform: translateY(-50px);
-    border: 3px solid #d1cece;
-  }
   .edit{
     width: 15px;
   }
@@ -185,30 +161,7 @@ p{
 }
 }
 @media(min-width:800px){
-  .tabl_img{
-    padding: 30px;
-    color: #fff;
-    font-size: 20px;
-  }
-  .tabl_img:hover{
-    padding: 15px 43px;
-    color: #fff;
-    font-size: 20px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl_img_bugs{
-    padding: 15px 30px;
-    color: #fff;
-    font-size: 20px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl{
-    font-size: 20px;
-    color: #fff;
-    padding: 30px;
-    transform: translateY(-50px);
-    border: 3px solid #d1cece;
-  }
+ 
   .edit{
     width: 32px;
   }
@@ -314,31 +267,8 @@ p{
   padding: 10px 20px;
 }
 }
-@media(min-width:900px){
-  .tabl_img{
-    padding: 30px;
-    color: #fff;
-    font-size: 20px;
-  }
-  .tabl_img:hover{
-    padding: 15px 43px;
-    color: #fff;
-    font-size: 20px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl_img_bugs{
-    padding: 15px 30px;
-    color: #fff;
-    font-size: 20px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl{
-    font-size: 20px;
-    color: #fff;
-    padding: 30px;
-    transform: translateY(-50px);
-    border: 3px solid #d1cece;
-  }
+@media(min-width:950px){
+
   .edit{
     width: 32px;
   }
@@ -446,30 +376,7 @@ p{
 }
 }
 @media(min-width:1440px){
-  .tabl_img{
-    padding: 30px;
-    color: #fff;
-    font-size: 20px;
-  }
-  .tabl_img:hover{
-    padding: 15px 43px;
-    color: #fff;
-    font-size: 20px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl_img_bugs{
-    padding: 15px 30px;
-    color: #fff;
-    font-size: 20px;
-    background: rgb(238, 169, 40);
-  }
-  .tabl{
-    font-size: 20px;
-    color: #fff;
-    padding: 30px;
-    transform: translateY(-50px);
-    border: 3px solid #d1cece;
-  }
+ 
   .edit{
     width: 32px;
   }
