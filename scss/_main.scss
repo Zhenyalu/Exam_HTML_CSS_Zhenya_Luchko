@@ -12,14 +12,8 @@ $cherry: rgb(238, 5, 94);
   padding: 0 0 10px 0;
   margin: 0;
 }
-.dash_main{
-  font-size: 23px;
-  padding-left: 0;
-  padding-top: 10px;
-  padding-bottom: 25px;
-  border-bottom: 2px solid transparent;
-}
 .main_get{
+  gap: 10px;
   display: flex;
   padding-bottom: 10px;
 }
@@ -53,6 +47,13 @@ p{
   background-color: $orenge;
 }
 @media(min-width:300px){
+  .dash_main{
+    font-size: 23px;
+    padding-left: 133px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid transparent;
+  }
   .main_hr{
     margin-left: -25px;
     transform: translateY(50px);
@@ -169,6 +170,13 @@ p{
 }
 }
 @media(min-width:650px){
+  .dash_main{
+    font-size: 23px;
+    padding-left: 133px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid transparent;
+  }
   .fut2{
     font-size: 16px;
 }
@@ -183,6 +191,13 @@ p{
   }
 }
 @media(min-width:800px){
+  .dash_main{
+    font-size: 23px;
+    padding-left: 133px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid transparent;
+  }
   .main_hr{
     margin-left: -41px;
     transform: translateY(50px);
@@ -298,6 +313,13 @@ p{
 }
 }
 @media(min-width:950px){
+  .dash_main{
+    font-size: 23px;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid transparent;
+  }
   .main_hr{
     margin-left: 0px;
     transform: translateY(50px);
@@ -414,6 +436,13 @@ p{
 }
 }
 @media(min-width:1440px){
+  .dash_main{
+    font-size: 23px;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid transparent;
+  }
   .main_hr{
     margin-left: 0px;
     transform: translateY(50px);
@@ -550,6 +579,7 @@ p{
   height: 100%;
 }
 .main_get{
+  gap: 10px;
   font-size: 13px;
   padding-top: 5px;
   padding-bottom: 16px;
