@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,128 +9,208 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <section>
+
+  <label for="check">
+    <input type="checkbox" id="check">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <section>
     <div class="navbar">
       <h2>Company</h2>
       <ul>
-        <a href="#"><li class="dash"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48h-48z" fill="none"/><path fill="white" d="M6 26h16v-20h-16v20zm0 16h16v-12h-16v12zm20 0h16v-20h-16v20zm0-36v12h16v-12h-16z"/></svg><span>Dashboard</span></li></a>
-        <a href="http://127.0.0.1:5500/profile.html"><li class ="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg"><path fill="gray" d="M24 8c-4.42 0-8 3.58-8 8 0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 20c-5.33 0-16 2.67-16 8v4h32v-4c0-5.33-10.67-8-16-8z"/><path d="M0 0h48v48h-48z" fill="none"/></svg>User Profile</li></a>
-        <a href="#"><li class ="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg"><path fill="gray" d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/><path d="M0 0h48v48h-48z" fill="none"/></svg>Maps</li></a>
-        <a href="#"><li class ="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48h-48z" fill="none"/><path fill="gray" d="M36 14l-2.83-2.83-12.68 12.69 2.83 2.83 12.68-12.69zm8.49-2.83l-21.18 21.17-8.34-8.34-2.83 2.83 11.17 11.17 24-24-2.82-2.83zm-43.66 15.66l11.17 11.17 2.83-2.83-11.17-11.17-2.83 2.83z"/></svg>Notifications</li></a>
-        <a href="#"><li class ="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48h-48z" fill="none"/><path class="support" fill="gray" d="M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm13.85 12h-5.9c-.65-2.5-1.56-4.9-2.76-7.12 3.68 1.26 6.74 3.81 8.66 7.12zm-13.84-7.93c1.67 2.4 2.97 5.07 3.82 7.93h-7.64c.85-2.86 2.15-5.53 3.82-7.93zm-15.48 19.93c-.33-1.28-.52-2.62-.52-4s.19-2.72.52-4h6.75c-.16 1.31-.27 2.64-.27 4 0 1.36.11 2.69.28 4h-6.76zm1.63 4h5.9c.65 2.5 1.56 4.9 2.76 7.13-3.68-1.26-6.74-3.82-8.66-7.13zm5.9-16h-5.9c1.92-3.31 4.98-5.87 8.66-7.13-1.2 2.23-2.11 4.63-2.76 7.13zm7.95 23.93c-1.66-2.4-2.96-5.07-3.82-7.93h7.64c-.86 2.86-2.16 5.53-3.82 7.93zm4.68-11.93h-9.36c-.19-1.31-.32-2.64-.32-4 0-1.36.13-2.69.32-4h9.36c.19 1.31.32 2.64.32 4 0 1.36-.13 2.69-.32 4zm.51 11.12c1.2-2.23 2.11-4.62 2.76-7.12h5.9c-1.93 3.31-4.99 5.86-8.66 7.12zm3.53-11.12c.16-1.31.28-2.64.28-4 0-1.36-.11-2.69-.28-4h6.75c.33 1.28.53 2.62.53 4s-.19 2.72-.53 4h-6.75z"/></svg>Support</li></a>
+        <a href="#">
+          <li class="dash"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h48v48h-48z" fill="none" />
+              <path fill="white" d="M6 26h16v-20h-16v20zm0 16h16v-12h-16v12zm20 0h16v-20h-16v20zm0-36v12h16v-12h-16z" />
+            </svg><span>Dashboard</span></li>
+        </a>
+        <a href="http://127.0.0.1:5500/profile.html">
+          <li class="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path fill="gray"
+                d="M24 8c-4.42 0-8 3.58-8 8 0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 20c-5.33 0-16 2.67-16 8v4h32v-4c0-5.33-10.67-8-16-8z" />
+              <path d="M0 0h48v48h-48z" fill="none" />
+            </svg>User Profile</li>
+        </a>
+        <a href="#">
+          <li class="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path fill="gray"
+                d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" />
+              <path d="M0 0h48v48h-48z" fill="none" />
+            </svg>Maps</li>
+        </a>
+        <a href="#">
+          <li class="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h48v48h-48z" fill="none" />
+              <path fill="gray"
+                d="M36 14l-2.83-2.83-12.68 12.69 2.83 2.83 12.68-12.69zm8.49-2.83l-21.18 21.17-8.34-8.34-2.83 2.83 11.17 11.17 24-24-2.82-2.83zm-43.66 15.66l11.17 11.17 2.83-2.83-11.17-11.17-2.83 2.83z" />
+            </svg>Notifications</li>
+        </a>
+        <a href="#">
+          <li class="user"><svg height="20" viewBox="0 0 48 48" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h48v48h-48z" fill="none" />
+              <path class="support" fill="gray"
+                d="M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm13.85 12h-5.9c-.65-2.5-1.56-4.9-2.76-7.12 3.68 1.26 6.74 3.81 8.66 7.12zm-13.84-7.93c1.67 2.4 2.97 5.07 3.82 7.93h-7.64c.85-2.86 2.15-5.53 3.82-7.93zm-15.48 19.93c-.33-1.28-.52-2.62-.52-4s.19-2.72.52-4h6.75c-.16 1.31-.27 2.64-.27 4 0 1.36.11 2.69.28 4h-6.76zm1.63 4h5.9c.65 2.5 1.56 4.9 2.76 7.13-3.68-1.26-6.74-3.82-8.66-7.13zm5.9-16h-5.9c1.92-3.31 4.98-5.87 8.66-7.13-1.2 2.23-2.11 4.63-2.76 7.13zm7.95 23.93c-1.66-2.4-2.96-5.07-3.82-7.93h7.64c-.86 2.86-2.16 5.53-3.82 7.93zm4.68-11.93h-9.36c-.19-1.31-.32-2.64-.32-4 0-1.36.13-2.69.32-4h9.36c.19 1.31.32 2.64.32 4 0 1.36-.13 2.69-.32 4zm.51 11.12c1.2-2.23 2.11-4.62 2.76-7.12h5.9c-1.93 3.31-4.99 5.86-8.66 7.12zm3.53-11.12c.16-1.31.28-2.64.28-4 0-1.36-.11-2.69-.28-4h6.75c.33 1.28.53 2.62.53 4s-.19 2.72-.53 4h-6.75z" />
+            </svg>Support</li>
+        </a>
       </ul>
     </div>
-    <div class="main">
+    <div class="main2">
       <h2 class="dash_main">Dashboard</h2>
-        <div class="container">
-          <div class="main_block"><p class="main_used">Used Space</p><h2 class ="main_gb">49/50 GB</h2>
+      <div class="container">
+        <div class="main_block">
+          <p class="main_used">Used Space</p>
+          <h2 class="main_gb">49/50 GB</h2>
           <hr>
           <p class="main_get"><img src="images/alert.png" alt=""> Get more space...</p>
           <div class="square_green1"><img class="main_kub" src="images/data_white.svg" alt=""> </div>
-          </div>
-          
-          <div class="main_block"><p class="main_used">Revenue</p><h2 class ="main_gb">$ 34,245</h2>
-            <hr>
-            <p class="main_get"><img src="images/calendar.png" alt="">Last 24 Hours</p>
-            <div class="square_orenge2"><img class="main_kub" src="images/shop_white.svg" alt=""> </div>
-            </div>
+        </div>
 
-          <div class="main_block"><p class="main_used">Fixed Issues</p><h2 class ="main_gb">75</h2>
-            <hr>
-            <p class="main_get"><img src="images/down.png" alt="">Tracked from Github</p>
-            <div class="square_blue3"><img class="main_kub" src="images/tag_white.svg" alt=""> </div>
-            </div>
+        <div class="main_block">
+          <p class="main_used">Revenue</p>
+          <h2 class="main_gb">$ 34,245</h2>
+          <hr>
+          <p class="main_get"><img src="images/calendar.png" alt="">Last 24 Hours</p>
+          <div class="square_orenge2"><img class="main_kub" src="images/shop_white.svg" alt=""> </div>
+        </div>
 
-            <div class="main_block"><p class="main_used">Followers</p><h2 class ="main_gb">+ 245</h2>
-              <hr>
-              <p class="main_get"><img src="images/time.png" alt="">Just updated</p>
-              <div class="square_cherry4"><img class="main_kub" src="images/paperplane_white.svg" alt=""> </div>
-              </div>
-        </div>       
-        <div class="container2">
+        <div class="main_block">
+          <p class="main_used">Fixed Issues</p>
+          <h2 class="main_gb">75</h2>
+          <hr>
+          <p class="main_get"><img src="images/down.png" alt="">Tracked from Github</p>
+          <div class="square_blue3"><img class="main_kub" src="images/tag_white.svg" alt=""> </div>
+        </div>
+
+        <div class="main_block">
+          <p class="main_used">Followers</p>
+          <h2 class="main_gb">+ 245</h2>
+          <hr>
+          <p class="main_get"><img src="images/time.png" alt="">Just updated</p>
+          <div class="square_cherry4"><img class="main_kub" src="images/paperplane_white.svg" alt=""> </div>
+        </div>
+      </div>
+      <div class="container2">
         <div class="main_block2">
           <div class="grafick green11"><img class="main_grafick" src="images/graphics.svg" alt=""> </div>
-          <p class="main_used2">Daily Sales</p><p class ="main_gb2">55% increase in today sales</p>
+          <p class="main_used2">Daily Sales</p>
+          <p class="main_gb2">55% increase in today sales</p>
           <hr>
           <p class="main_get"><img src="images/time.png" alt="">updated 4 minutes ago</p>
-          </div>
-
-          <div class="main_block2">
-            <div class="grafick orenge22"><img class="main_grafick" src="images/graphics.svg" alt=""> </div>
-            <p class="main_used2">Email Subscription</p><p class ="main_gb2">Last Campaing Performance</p>
-            <hr>
-            <p class="main_get"><img src="images/time.png" alt="">campaign sent 2 days ago</p>
-            </div>
-
-            <div class="main_block2">
-              <div class="grafick blue33"><img class="main_grafick" src="images/graphics.svg" alt=""> </div>
-              <p class="main_used2">Daily Sales</p><p class ="main_gb2">55% increase in today sales</p>
-              <hr>
-              <p class="main_get"><img src="images/time.png" alt="">updated 4 minutes ago</p>
-              </div>
         </div>
-        <div class="container3">
-          <div class="main_block3">
-            <div class="tabl orenge222"><p class="task">Task:</p>
-              <a class="tabl_img_bugs" href="#"> <img class="edi" src="images/bug.svg" alt=""> Bugs</a>
-              <a class="tabl_img" href="#"><img class="edi" src="images/web.svg" alt=""> Website</a>
-              <a class="tabl_img" href="#"><img class="edi" src="images/cloud.svg" alt=""> Server</a>
-            </div>
-            <div class="check">
-              <input type="checkbox" class="custom-checkbox" checked>
-              <p class="main_used2">Sing contract for "What are conference organizers afraid<br> of?"
-              </p>
-              <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png" alt=""></div>
-            </div>
-            <hr>
-            <div class="check">
-              <input type="checkbox" class="custom-checkbox">
-              <p class="main_used2">Lines From Great Russian Literature? Or E-mails From<br>My Boss?"
-              </p>
-              <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png" alt=""></div>
-            </div>
-            <hr>
-            <div class="check">
-              <input type="checkbox" class="custom-checkbox">
-              <p class="main_used2">Sing contract for "What are conference organizers afraid<br> of?"
-              </p>
-              <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png" alt=""></div>
-            </div>
-            <hr>
-            <div class="check">
-              <input type="checkbox" class="custom-checkbox" checked>
-              <p class="main_used2">Sing contract for "What are conference organizers afraid<br> of?"
-              </p>
-              <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png" alt=""></div>
-             
-            </div>
-            </div>
-  
-            <div class="main_block3">
-              <div class="grafick_blue">Employees Stats <p class="new">New empliyees on 19th Semptember, 2019</p></div>
-              <div class="main_used3"><p class="id">ID</p><p class="id nameid"> Name</p> <p class="id">Salary</p><p class="id"> Country</p></div>
-              <hr>
-              <div class="main_get3"><p class="id1">1</p> <p class="id namei">Dakota Rice</p><p class="id"> $36.738</p> <p class="id">Niger</p></div>
-              <hr>
-              <div class="main_get3"><p class="id1">1</p> <p class="id namei">Dakota Rice</p><p class="id"> $36.738</p> <p class="id">Niger</p></div>
-              <hr>
-              <div class="main_get3"><p class="id1">1</p> <p class="id namei">Dakota Rice</p><p class="id"> $36.738</p> <p class="id">Niger</p></div>
-              <hr>
-              <div class="main_get3"><p class="id1">1</p> <p class="id namei">Dakota Rice</p><p class="id"> $36.738</p> <p class="id">Niger</p></div>
-             
-              </div>
+
+        <div class="main_block2">
+          <div class="grafick orenge22"><img class="main_grafick" src="images/graphics.svg" alt=""> </div>
+          <p class="main_used2">Email Subscription</p>
+          <p class="main_gb2">Last Campaing Performance</p>
+          <hr>
+          <p class="main_get"><img src="images/time.png" alt="">campaign sent 2 days ago</p>
+        </div>
+
+        <div class="main_block2">
+          <div class="grafick blue33"><img class="main_grafick" src="images/graphics.svg" alt=""> </div>
+          <p class="main_used2">Daily Sales</p>
+          <p class="main_gb2">55% increase in today sales</p>
+          <hr>
+          <p class="main_get"><img src="images/time.png" alt="">updated 4 minutes ago</p>
+        </div>
+      </div>
+      <div class="container3">
+        <div class="main_block3">
+          <div class="tabl orenge222">
+            <p class="task">Task:</p>
+            <a class="tabl_img_bugs" href="#"> <img class="edi" src="images/bug.svg" alt=""> Bugs</a>
+            <a class="tabl_img" href="#"><img class="edi" src="images/web.svg" alt=""> Website</a>
+            <a class="tabl_img" href="#"><img class="edi" src="images/cloud.svg" alt=""> Server</a>
           </div>
-          <hr class="main_hr">
-          <div class="futer">
-            <div class="fut">
-              <a class="main_text" href="#">ABOUT</a>
-              <a class="main_text" href="#">BLOG</a>
-              <a class="main_text" href="#">LICENSES</a>
-              </div>
-            <p class="fut2">2019 - made with love</p>
-          
+          <div class="check">
+            <input type="checkbox" class="custom-checkbox" checked>
+            <p class="main_used2">Sing contract for "What are conference organizers afraid<br> of?"
+            </p>
+            <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png"
+                alt=""></div>
           </div>
+          <hr>
+          <div class="check">
+            <input type="checkbox" class="custom-checkbox">
+            <p class="main_used2">Lines From Great Russian Literature? Or E-mails From<br>My Boss?"
+            </p>
+            <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png"
+                alt=""></div>
+          </div>
+          <hr>
+          <div class="check">
+            <input type="checkbox" class="custom-checkbox">
+            <p class="main_used2">Sing contract for "What are conference organizers afraid<br> of?"
+            </p>
+            <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png"
+                alt=""></div>
+          </div>
+          <hr>
+          <div class="check">
+            <input type="checkbox" class="custom-checkbox" checked>
+            <p class="main_used2">Sing contract for "What are conference organizers afraid<br> of?"
+            </p>
+            <div class="images"><img class="edit" src="images/edit.png" alt=""><img class="edit" src="images/remove.png"
+                alt=""></div>
+
+          </div>
+        </div>
+
+        <div class="main_block3">
+          <div class="grafick_blue">Employees Stats <p class="new">New empliyees on 19th Semptember, 2019</p>
+          </div>
+          <div class="main_used3">
+            <p class="id">ID</p>
+            <p class="id nameid"> Name</p>
+            <p class="id">Salary</p>
+            <p class="id"> Country</p>
+          </div>
+          <hr>
+          <div class="main_get3">
+            <p class="id1">1</p>
+            <p class="id namei">Dakota Rice</p>
+            <p class="id"> $36.738</p>
+            <p class="id">Niger</p>
+          </div>
+          <hr>
+          <div class="main_get3">
+            <p class="id1">1</p>
+            <p class="id namei">Dakota Rice</p>
+            <p class="id"> $36.738</p>
+            <p class="id">Niger</p>
+          </div>
+          <hr>
+          <div class="main_get3">
+            <p class="id1">1</p>
+            <p class="id namei">Dakota Rice</p>
+            <p class="id"> $36.738</p>
+            <p class="id">Niger</p>
+          </div>
+          <hr>
+          <div class="main_get3">
+            <p class="id1">1</p>
+            <p class="id namei">Dakota Rice</p>
+            <p class="id"> $36.738</p>
+            <p class="id">Niger</p>
+          </div>
+
+        </div>
+      </div>
+      <hr class="main_hr">
+      <div class="futer">
+        <div class="fut">
+          <a class="main_text" href="#">ABOUT</a>
+          <a class="main_text" href="#">BLOG</a>
+          <a class="main_text" href="#">LICENSES</a>
+        </div>
+        <p class="fut2">2019 - made with love</p>
+
+      </div>
     </div>
- </section>
+  </section>
 </body>
+
 </html>

@@ -55,13 +55,16 @@ svg{
   padding: 13px 23px 13px 43px;
   border-bottom: 4px solid #fcf9f9;
 }
-.user:hover.support{
+.user:hover{
   fill:#fff;
   padding: 13px 23px 13px 22px;
   margin: 0 21px;
   color:#fff;
   background-color: #ee055e;
   border-bottom: 4px solid #d1cece;
+}
+.support:hover{
+  fill:#fff;
 }
 @media(min-width:200px){
   .navbar{ 
